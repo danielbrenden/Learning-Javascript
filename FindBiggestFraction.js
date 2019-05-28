@@ -1,9 +1,9 @@
 // Find the biggest fraction + using ternary operator
-function biggestFraction() {
+function biggestFraction(a,b) {
 	a>b ? console.log("a is bigger at " + a ) : console.log("b is bigger at " + b);
 }
 
-var a = 4/7;
-var b = 3/4;
+var first = 4/7;
+var second = 3/4;
 
-biggestFraction();
+biggestFraction(first,second);
